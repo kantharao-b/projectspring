@@ -30,6 +30,7 @@ private CustomerService service;
 
 @PostMapping("/register")
 public boolean addCustomer(@RequestBody RegisterDTO registerDTO) {
+	System.out.println("add statement");
 	return service.registerCustomer(registerDTO);
 }
 @PostMapping("/login")
