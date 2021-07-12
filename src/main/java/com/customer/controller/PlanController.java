@@ -19,7 +19,7 @@ import com.customer.entity.LoginDTO;
 import com.customer.entity.PlanDTO;
 import com.customer.entity.RegisterDTO;
 import com.customer.service.CustomerService;
-/*Rest-Api*/
+/*Rest-Api*//*Rest-Api*/
 @RestController
 @RequestMapping("/planController")
 public class PlanController {
