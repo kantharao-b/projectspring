@@ -27,7 +27,8 @@ public class PlanController {
 private RestTemplate restTemplate;
 @Autowired
 private CustomerService service;
-
+int a;
+int b;
 @PostMapping("/register")
 public boolean addCustomer(@RequestBody RegisterDTO registerDTO) {
 	System.out.println("add statement");
