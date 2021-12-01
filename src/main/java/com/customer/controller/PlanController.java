@@ -29,6 +29,7 @@ private RestTemplate restTemplate;
 private CustomerService service;
 int a;
 int b;
+float k;
 @PostMapping("/register")
 public boolean addCustomer(@RequestBody RegisterDTO registerDTO) {
 	System.out.println("add statement");
